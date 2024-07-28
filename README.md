@@ -33,7 +33,7 @@ classDiagram
         +String description
     }
 
-    Bank --> Account
-    Bank --> Feature
-    Bank --> Card
-    Bank --> News
+    User *--> Account
+    User *--> Feature
+    User *--> Card
+    User *--> News
