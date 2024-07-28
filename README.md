@@ -3,7 +3,7 @@
 ```mermaid
 
 classDiagram
-    class Bank {
+    class User {
         +String name
         +Account account
         +Feature[] features
